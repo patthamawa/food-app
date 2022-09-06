@@ -8,6 +8,6 @@
         @include('layout.partials.header')
         @yield('content')
         @include('layout.partials.footer')
-        @include('layout.partials.footer-script')
+        @include('layout.partials.footer-scripts')
     </body>
 </html>
