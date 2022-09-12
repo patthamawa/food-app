@@ -2,7 +2,7 @@
 @section('content')
 @endsection
 Create student form 
-1. Name
+1. Firstname
 2. Surname
 3. brithdate
 4. faculty -> dropdown list
