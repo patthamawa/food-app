@@ -17,8 +17,8 @@ class CreatePersonalAccessTokensTable extends Migration
             //$table->id();
             $table->increment('student_id')
             $table->timestamps();
-            $table->string('Firstname');
-            $table->string('Surname');
+            $table->string('firstname');
+            $table->string('surname');
             $table->string('brithdate');
             $table->integer('faculty');
 
