@@ -15,7 +15,7 @@ class CreatePersonalAccessTokensTable extends Migration
     {
         Schema::create('student', function (Blueprint $table) {
             //$table->id();
-            $table->increment('student_id')
+            $table->increment('student_id');
             $table->timestamps();
             $table->string('firstname');
             $table->string('surname');
